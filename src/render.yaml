@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: mk-home-solutions-bot
+    env: node
+    buildCommand: npm install
+    startCommand: npm start
